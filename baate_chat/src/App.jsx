@@ -6,8 +6,6 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
-import "./App.css";
-
 firebase.initializeApp({
   apiKey: "AIzaSyBIsczI_3tI0Bm7mY5OKPSLiAeNJg6PMBo",
   authDomain: "baatechat.firebaseapp.com",
@@ -26,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar">
-        <a href="https://baatevideo.web.app/">Video Chat</a>
+        <a href="https://baatevideo.web.app/">Video Chat &gt;</a>
       </div>
       <header>
         <h1 className="Logo">Baate</h1>

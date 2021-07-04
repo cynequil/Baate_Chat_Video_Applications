@@ -7,8 +7,6 @@ import { ReactComponent as HangupIcon } from "./icons/hangup.svg";
 import { ReactComponent as MoreIcon } from "./icons/more-vertical.svg";
 import { ReactComponent as CopyIcon } from "./icons/copy.svg";
 
-import "./App.css";
-
 // Initialize Firebase
 
 firebase.initializeApp({
@@ -39,7 +37,10 @@ function App() {
   const [joinCode, setJoinCode] = useState("");
 
   return (
-    <div className="app">
+    <div className="App">
+      <div className="sidebar">
+        <a href="https://baatechat.web.app/">&gt; Chat</a>
+      </div>
       {currentPage === "home" ? (
         <Menu
           joinCode={joinCode}
