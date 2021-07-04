@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import dotenv from "dotenv";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 import GoogleButton from "react-google-button";
@@ -8,8 +7,6 @@ import "firebase/firestore";
 import "firebase/auth";
 
 import "./App.css";
-
-dotenv.config();
 
 firebase.initializeApp({
   apiKey: "AIzaSyBIsczI_3tI0Bm7mY5OKPSLiAeNJg6PMBo",
