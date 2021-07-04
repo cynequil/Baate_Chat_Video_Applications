@@ -1,5 +1,10 @@
-# College Project
+## Baate Chat Application - Chat
 
-### Web Based Chat Application Made Using Firebase
+### College Project
 
-#### Name Baate
+#### Tech Stack 
+
+##### React.js, Firebase
+
+1. React.js for the UI
+2. Firebase for hosting, authentication, realtime chat

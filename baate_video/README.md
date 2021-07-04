@@ -1,10 +1,10 @@
-# Baate Chat Application - Video
+## Baate Chat Application - Video
 
-## College Project
+### College Project
 
-### Tech Stack 
+#### Tech Stack 
 
-#### React.js, Firebase, WebRTC
+##### React.js, Firebase, WebRTC
 
 1. React.js for the UI
 2. Firebase for hosting and as a signaling server
