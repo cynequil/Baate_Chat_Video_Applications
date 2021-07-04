@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import dotenv from "dotenv";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
-// import { FcGoogle } from "react-icons/fc";
 import GoogleButton from "react-google-button";
 import firebase from "firebase/app";
 import "firebase/firestore";
@@ -13,12 +12,12 @@ import "./App.css";
 dotenv.config();
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyBIsczI_3tI0Bm7mY5OKPSLiAeNJg6PMBo",
+  authDomain: "baatechat.firebaseapp.com",
+  projectId: "baatechat",
+  storageBucket: "baatechat.appspot.com",
+  messagingSenderId: "187181325252",
+  appId: "1:187181325252:web:070824f5ee9b9cf919e291"
 });
 
 const auth = firebase.auth();
