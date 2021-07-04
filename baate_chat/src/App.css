@@ -3,7 +3,31 @@ body {
   background-image: url("./background.jpg");
   background-size: contain;
 }
-
+.sidebar {
+  background-color: #ececec;
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #5f5d5d;
+  padding: 5px;
+  z-index: 9999999;
+  border: solid 2px #5f5d5d;
+  border-radius: 5px;
+}
+.sidebar a:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
 .App {
   text-align: center;
   max-width: 900px;

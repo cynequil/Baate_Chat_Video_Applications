@@ -14,7 +14,7 @@ firebase.initializeApp({
   projectId: "baatechat",
   storageBucket: "baatechat.appspot.com",
   messagingSenderId: "187181325252",
-  appId: "1:187181325252:web:070824f5ee9b9cf919e291"
+  appId: "1:187181325252:web:070824f5ee9b9cf919e291",
 });
 
 const auth = firebase.auth();
@@ -25,6 +25,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="sidebar">
+        <a href="https://baatevideo.web.app/">Video Chat</a>
+      </div>
       <header>
         <h1 className="Logo">Baate</h1>
         <SignOut />
@@ -46,11 +49,6 @@ function SignIn() {
     </div>
   );
 }
-
-// const gIcon = {
-//   backgroundColor: "white",
-//   float: "left",
-// };
 
 function SignOut() {
   return (
