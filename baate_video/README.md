@@ -1,16 +1,11 @@
-# Video Chat with WebRTC, React, and Firebase.
+# Baate Chat Application - Video
 
-A 1-to-1 video chat webpage built with WebRTC, React and Firestore.
+## College Project
 
-## Usage
+### Tech Stack 
 
-Update the Firebase project config in the `src/App.js` file.
+#### React.js, Firebase, WebRTC
 
-```
-git clone https://github.com/raymon-zhang/webrtc-react-videochat.git
-cd ./webrtc-react-videochat/
-
-npm install
-
-npm start
-```
+1. React.js for the UI
+2. Firebase for hosting and as a signaling server
+3. WebRTC for real time video communication
