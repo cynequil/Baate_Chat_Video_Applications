@@ -41,6 +41,9 @@ function App() {
       <div className="sidebar">
         <a href="https://baatechat.web.app/">&gt; Chat</a>
       </div>
+      <header>
+        <h1 className="Logo">Baate</h1>
+      </header>
       {currentPage === "home" ? (
         <Menu
           joinCode={joinCode}

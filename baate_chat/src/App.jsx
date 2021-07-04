@@ -44,6 +44,7 @@ function SignIn() {
   return (
     <div className="center">
       <GoogleButton onClick={signInWithGoogle} />
+      <p>Web Based Real Time Chat Application</p>
     </div>
   );
 }
